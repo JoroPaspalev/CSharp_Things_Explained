@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Func", "Func\Func.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predicate", "Predicate\Predicate.csproj", "{9CB87686-237B-4100-AF0B-51D62FF81818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static_Variables_In_Class", "Static_Variables_In_Class\Static_Variables_In_Class.csproj", "{2D810D8D-2E6B-408C-ABCB-5E36B65E9A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static_Variables_In_Class", "Static_Variables_In_Class\Static_Variables_In_Class.csproj", "{2D810D8D-2E6B-408C-ABCB-5E36B65E9A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sha512_Hash_Algorithm", "Sha512_Hash_Algorithm\Sha512_Hash_Algorithm.csproj", "{4B9CD017-1C35-4D7A-8436-E2B62CC734ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{2D810D8D-2E6B-408C-ABCB-5E36B65E9A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D810D8D-2E6B-408C-ABCB-5E36B65E9A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D810D8D-2E6B-408C-ABCB-5E36B65E9A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9CD017-1C35-4D7A-8436-E2B62CC734ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9CD017-1C35-4D7A-8436-E2B62CC734ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9CD017-1C35-4D7A-8436-E2B62CC734ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9CD017-1C35-4D7A-8436-E2B62CC734ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
