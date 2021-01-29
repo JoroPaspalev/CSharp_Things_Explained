@@ -6,7 +6,7 @@ namespace Static_fields
     {
         static void Main(string[] args)
         {
-            // Какво означава едно поле (field) да е статично? - Означава, че това поле е свързано със самия клас, а не с негова инстанция --> Това означава, че полета, методи и свойства маркирани като статични, принадлежат на самия клас, а не на някой конкретен обект от дадения клас.
+            // Какво означава едно поле (field) да е статично? - Означава, че това поле е свързано със самия клас, а не с негова инстанция --> Това означава, че полета, методи и свойства маркирани като статични, принадлежат на самия клас, а не на някой конкретен обект от дадения клас. И се извикват чрез самия клас --> Dog.countOfCreatedDogs
 
             // I. Нека имаме следната задача: Искаме да преброим колко кучета са инстанцирани от клас Dog?
             var dog1 = new Dog("Sharo", 2);
@@ -15,6 +15,9 @@ namespace Static_fields
 
             Console.WriteLine(Dog.countOfDogs);
 
+            // Нека сега да искаме да видим кое е последно създаденото куче?
+            // a. Правим си една static променлива lastCreatedDog, която ще се промения всеки път когато се създава ново куче и ще взима неговото име
+            Console.WriteLine(Dog.lastCreatedDog);
 
             // II. Static методи в класа Dog - Извиква се без да е нужна инстанция на Dog, а става директно ето така:
             Dog.AllDogsMakeSameSound();
@@ -32,6 +35,7 @@ namespace Static_fields
     {
         // 3. Правим си една статична променлива която ще е на самия клас и всички инстанции на Dog ще могат да я достъпват защото е ОБЩА за тях.
         public static int countOfDogs = 0;
+        public static string lastCreatedDog = string.Empty;
 
         // 4. В конструктора освен инициализация на Properties, правим и отчитане на броя новонаправени кучета
         public Dog(string name, int age)
@@ -40,6 +44,7 @@ namespace Static_fields
             this.Age = age;
 
             Dog.countOfDogs++;
+            Dog.lastCreatedDog = name;
         }
 
         // 2. Задаваме му Properties
@@ -74,6 +79,11 @@ namespace Static_fields
             this.red = red;
             this.green = green;
             this.blue = blue;
+        }
+
+        public override string ToString()
+        {
+            return $"red:{this.red} green:{this.green} blue:{this.blue}";
         }
     }
 }
