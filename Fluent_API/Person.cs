@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Fluent_API
+﻿namespace Fluent_API
 {
     public class Person
     {
