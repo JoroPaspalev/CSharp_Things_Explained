@@ -27,10 +27,7 @@ namespace Cities_in_Bulgaria
                 cities.Add(currCity);
             }
 
-            Console.ReadLine(); //tHIS iS from Remote rr aaaaa
-            //this is made from Mariyan local master
-            //changes from master/origin 
-            //changes from remote
+            Console.ReadLine();
         }
     }
 }
