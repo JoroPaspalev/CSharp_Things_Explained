@@ -27,7 +27,7 @@ namespace Cities_in_Bulgaria
                 cities.Add(currCity);
             }
 
-            Console.ReadLine(); //tHIS iS from Remote
+            Console.ReadLine(); //tHIS iS from Remote rr
         }
     }
 }
