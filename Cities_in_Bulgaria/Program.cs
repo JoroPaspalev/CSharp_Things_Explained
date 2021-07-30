@@ -28,7 +28,7 @@ namespace Cities_in_Bulgaria
             }
 
             Console.ReadLine(); 
-            //10:31
+            //10:54
         }
     }
 }
