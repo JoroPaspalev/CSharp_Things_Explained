@@ -27,8 +27,16 @@ namespace Cities_in_Bulgaria
                 cities.Add(currCity);
             }
 
-            Console.ReadLine(); 
-            //10:31
+            Console.ReadLine(); // add new comments from Mariyan locally
+            //add new comments from Mariyan locally 2
+            //add new comments from Mariyan locally 3
+            ////add new comments from Mariyan locally 4
+            ////add new comments from Mariyan locally 5
+            ////add new comments from Mariyan locally 6
+            //7
+            //8
+            //9
+            //10
         }
     }
 }
