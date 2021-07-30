@@ -18,5 +18,8 @@ namespace Autos_vs_Locals_in_VisualStudio
         }
 
         // If we put breakpoint at row 12 where int b=2 is, Autos will show as only "b" and "a" variables. Local will show args,a,b,c,d,name,price. If we put breakpoint at row13 Autos will show only "c" and "b"
+    
+        //11:32
+    
     }
 }
