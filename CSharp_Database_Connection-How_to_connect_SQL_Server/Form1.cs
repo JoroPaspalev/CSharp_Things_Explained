@@ -51,7 +51,9 @@ namespace CSharp_Database_Connection_How_to_connect_SQL_Server
 
             MessageBox.Show(result);
 
-            //8
+            //8 close all the objects related to the database operation.
+            dataReader.Close();
+            command.Dispose();
             connection.Close();
         }
     }
