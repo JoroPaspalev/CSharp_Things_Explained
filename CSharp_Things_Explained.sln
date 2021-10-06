@@ -107,6 +107,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL and DB", "SQL and DB", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Database_Connection-How_to_connect_SQL_Server", "CSharp_Database_Connection-How_to_connect_SQL_Server\CSharp_Database_Connection-How_to_connect_SQL_Server.csproj", "{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddSingleton_Transient_Scoped", "AddSingleton_Transient_Scoped", "{56F8584C-51CB-4D7D-B289-85B0F4964821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSingleton_Transient_Scoped", "AddSingleton_Transient_Scoped\AddSingleton_Transient_Scoped.csproj", "{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,10 @@ Global
 		{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +287,7 @@ Global
 		{45D67E0E-1F73-40B0-9831-3E1516F4AF55} = {A20E04A3-C6BA-4ACB-8FEC-A0AB44056504}
 		{ECC409A6-9722-4915-90B3-24EE8BE33E3F} = {344D8A01-E40B-49F0-9677-11C1DB32BE60}
 		{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C} = {29454567-FBAF-4DB7-84F9-B1571235B845}
+		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF} = {56F8584C-51CB-4D7D-B289-85B0F4964821}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0667B87-8125-4682-A191-617BCFF4CE27}
