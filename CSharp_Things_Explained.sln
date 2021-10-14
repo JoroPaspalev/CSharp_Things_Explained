@@ -109,7 +109,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Database_Connection-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddSingleton_Transient_Scoped", "AddSingleton_Transient_Scoped", "{56F8584C-51CB-4D7D-B289-85B0F4964821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSingleton_Transient_Scoped", "AddSingleton_Transient_Scoped\AddSingleton_Transient_Scoped.csproj", "{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddSingleton_Transient_Scoped", "AddSingleton_Transient_Scoped\AddSingleton_Transient_Scoped.csproj", "{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows_Forms", "Windows_Forms", "{2675F0A0-243A-45AF-A5D0-003BE3E3A078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_and_MultiThreading", "Threads_and_MultiThreading\Threads_and_MultiThreading.csproj", "{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -245,6 +249,10 @@ Global
 		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,6 +296,7 @@ Global
 		{ECC409A6-9722-4915-90B3-24EE8BE33E3F} = {344D8A01-E40B-49F0-9677-11C1DB32BE60}
 		{F4914153-7D73-4CE5-B493-AE7CAC2C7C3C} = {29454567-FBAF-4DB7-84F9-B1571235B845}
 		{9AA09CA9-772C-42DA-80D9-A0A4E215D0AF} = {56F8584C-51CB-4D7D-B289-85B0F4964821}
+		{BAD0419C-18C6-47F2-B78A-E8E8598BADFB} = {2675F0A0-243A-45AF-A5D0-003BE3E3A078}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0667B87-8125-4682-A191-617BCFF4CE27}
