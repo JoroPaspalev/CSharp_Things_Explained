@@ -32,7 +32,7 @@ namespace DataTable_and_GridView
             dt.Columns.Add("Age", typeof(int));
 
             dt.Rows.Add(1, "Ivan", "Ivanov", 23);
-            dt.Rows.Add(2, "Marin", "Ivanov", 563);
+            dt.Rows.Add(1, "Marin", "Ivanov", 563);
             dt.Rows.Add(3, "Asan", "Ivanov", 23);
             dt.Rows.Add(4, "Pesho", "Ivanov", 17);
             dt.Rows.Add(5, "Kiro", "Ivanov", 73);
@@ -50,12 +50,23 @@ namespace DataTable_and_GridView
             DataTable dtAsEnumerable = dt.AsEnumerable().CopyToDataTable();
 
 
+            //Това първо филтрира (Where(x => x.Id = 1), което връща DataRow[], а после .CopyTo() копира резултата в масива copiedArr, като започва да пише от index=1)
+            var copiedArr = new DataRow[10];
+            dt.Select("Id = 1").CopyTo(copiedArr, 1);
+
+
             //dataTable.AsEnumerable().Where(dr => dr.Field<double>("columnName") > 0);
             //// is 10x faster than
             //dataTable.Select("columnName > 0");
             DataTable copyDt = dt.Select("Id = 1").CopyToDataTable();
 
+            //DataSet - Set от DataTables
+            DataSet dtSet = new DataSet();
+            dtSet.Tables.Add(dt);
+            dtSet.Tables.Add(copyDt);
 
+            var newDataSet = dtSet.Copy();//Прави ново копие на съществуващия DataSet
+            var newCloneDataSet = dtSet.Clone(); // Клонира на всяка една таблица Schemata и relations но не взема данните
 
             dataGridView1.DataSource = dt;
 
