@@ -115,7 +115,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows_Forms", "Windows_Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads_and_MultiThreading", "Threads_and_MultiThreading\Threads_and_MultiThreading.csproj", "{BAD0419C-18C6-47F2-B78A-E8E8598BADFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable_and_GridView", "DataTable_and_GridView\DataTable_and_GridView.csproj", "{7BA54935-F2E1-4F0E-95B9-7A7B16233FE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTable_and_GridView", "DataTable_and_GridView\DataTable_and_GridView.csproj", "{7BA54935-F2E1-4F0E-95B9-7A7B16233FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_plus_One_Problem_In_EFCore", "N_plus_One_Problem_In_EFCore\N_plus_One_Problem_In_EFCore.csproj", "{6D1A16A7-6A50-4CD7-BE1A-F7D3245D0ED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +261,10 @@ Global
 		{7BA54935-F2E1-4F0E-95B9-7A7B16233FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA54935-F2E1-4F0E-95B9-7A7B16233FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA54935-F2E1-4F0E-95B9-7A7B16233FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1A16A7-6A50-4CD7-BE1A-F7D3245D0ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1A16A7-6A50-4CD7-BE1A-F7D3245D0ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1A16A7-6A50-4CD7-BE1A-F7D3245D0ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1A16A7-6A50-4CD7-BE1A-F7D3245D0ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
