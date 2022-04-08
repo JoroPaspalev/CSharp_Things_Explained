@@ -6,7 +6,7 @@ namespace Predicate
     {
         static void Main(string[] args)
         {
-            // Predicate е всеки метод, който връща bool. Например: IsEvenNumber(); IsNegativeNumber();
+            // Predicate е всеки метод, който приема само един parameter като вход и връща bool. Например: IsEvenNumber(); IsNegativeNumber();
 
             Console.WriteLine(IsEvenNumber(4));
             Console.WriteLine(IsEvenNumber(7));
